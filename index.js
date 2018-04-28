@@ -4,7 +4,7 @@ describe('Arrays', function() {
   });
 }
 
-function kittens() {
+function kittens(kittens, cat) {
     it('defines kittens as `var kittens = ["Milo", "Otis", "Garfield"]`', function() {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
 }
